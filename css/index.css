@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('../images/foolscapbackground.png');
+}
+
+header {
+    background-color:rgb(6, 6, 99);
+    height: 180px;
+    padding: 15px 0;
+    /* to align title div vertically within header: */
+    display: flex;
+    align-items: center;
+    background-image: url(../images/blackheaderbg.png);
+    margin-bottom: 20px;
+}
+
+header .title {
+    width: 320px;
+    color: white;
+    /* float: none; */
+    position: absolute;
+    left: 50px;
+    padding: 0 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+}
+
+header .title h2 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+header .title h1 {
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-and-pic {
+    position: absolute;
+    right: 0;
+    display: inline-flex;
+}
+
+.menu-and-pic ul {
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+    list-style-type: none;
+}
+
+.menu-and-pic ul li {
+    font-size: 25px;
+    padding: 3px 0;
+}
+
+.menu-link {
+    color: rgb(255, 255, 255)
+}
+
+.menu-and-pic img {
+    height: 210px;
+
+}
+
+
+/* main region */
+/* #main-body-area {
+    
+} */
+
+.category {
+
+    padding: 10px 20px;
+    margin: 50px 30px;
+    background-image: url('../images/yellowwhite.png');
+}
