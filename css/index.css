@@ -74,6 +74,19 @@ header .title h1 {
 
 }
 
+.tab-buttons {
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.tab-button {
+    width: 20%;
+    height: 80%;
+    margin: 5px 10px;
+}
+
 
 /* main region */
 /* #main-body-area {
