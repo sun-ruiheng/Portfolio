@@ -1,0 +1,12 @@
+Add a link to the corresponding blog page for each project?
+
+Make the background of the links change color a little on hover. The nav stuff too, like Blog, Contact. For UX
+
+Instead of Contact, maybe call it About Me? Then I can have About Me section + contacts on that page.
+
+In blog, each entry shouldn't have as long a height as each category in portfolio. People should be able to scroll comfortably and have a more
+overview type look, so don't go too much into detail describing each one.
+
+In blog, have different types of entries: experiences, skills, book reviews, personal.
+
+Add logos next to CS, WD, P5

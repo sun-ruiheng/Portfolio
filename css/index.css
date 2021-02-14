@@ -61,19 +61,19 @@ header .title h1 {
 
 .menu-link {
     font-size: 25px;
-    transition: transform .2s;
-    color: white;
+    padding: 0 5%;
+    border-radius: 8%;
+    color: rgb(153, 153, 153);
+    transition: color 0.3s ease;
 }
 
 .menu-link:hover {
-    transform: scale(1.5);
+    color: white;
 }
 
 .menu-and-pic img {
     height: 210px;
-
 }
-
 
 /* main region */
 /* #main-body-area {
@@ -139,6 +139,11 @@ h4.category-subtitle span {
     margin: 10px auto;
     overflow: hidden;
     position: relative;
+    transition: all 0.3s ease-out 0s
+}
+
+.content-box:hover {
+    transform: scale(1.2);
 }
 
 .content-image {
@@ -195,9 +200,14 @@ h4.category-subtitle span {
 .overlay-content a {
     color: inherit;
     margin: 0 10%;
+    border-radius: 8%;
+    transition: 0.5s;
+}
+
+.overlay-content a:hover {
+    background-color: rgb(184, 194, 216);
 }
 
 .content-box:hover .overlay-content {
-    /* left: 0; */
     transform: translateY(-100%);
 }
