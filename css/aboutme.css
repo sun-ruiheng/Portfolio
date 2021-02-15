@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('../images/me04.jpeg');
+    background-image: url('../images/forest1.jpg');
     background-size: cover;
 }
 
@@ -76,9 +76,52 @@ header .title h1 {
 }
 
 #top-half {
-    height: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info-area {
+    font-family: 'Truculenta', sans-serif;
+    /* background-color: rgb(240, 234, 221); */
+    background-image: url('../images/wood1.jpg');
+    display: inline-block;
+    width: 40vw;
+    height: 53vw;
+    min-width: 100px;
+    padding: 0 2em;
+    border-radius: 4%;
+    text-align: center;
+    color: white;
+}
+
+#info-title, #get-in-touch {
+    color:rgb(211, 158, 134);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+
+#get-in-touch {
+    font-size: 30px;
+}
+
+#info-area p {
+    font-weight: 600;
+    word-spacing: 2px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#get-in-touch, #my-contacts {
+}
+
+#pic-area {
+    display: inline-block;
+    width: 40vw;
+    height: 53vw;
+    min-width: 100px;
+    border-radius: 4%;
 }
 
 #y {
-    height: 1200px;
+    display: inherit;
 }
