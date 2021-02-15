@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-image: url('../images/forest6.png');
+    background-size: cover;
 }
 
 header {
@@ -200,7 +201,8 @@ h4.category-subtitle span {
 .overlay-content a {
     color: inherit;
     margin: 0 10%;
-    border-radius: 8%;
+    padding: 0 1%;
+    border-radius: 10%;
     transition: 0.5s;
 }
 

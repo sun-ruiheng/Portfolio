@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../images/me04.jpeg');
+    background-size: cover;
+}
+
+header {
+    background-color:rgb(6, 6, 99);
+    height: 180px;
+    padding: 15px 0;
+    /* to align title div vertically within header: */
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+header .title {
+    width: 320px;
+    color: white;
+    /* float: none; */
+    position: absolute;
+    left: 50px;
+    padding: 0 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+}
+
+header .title h2 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+header .title h1 {
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-and-pic {
+    position: absolute;
+    right: 0;
+    display: inline-flex;
+}
+
+.menu-and-pic ul {
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-and-pic ul li {
+    font-size: 30px;
+    padding: 3px 0;
+    color: white;
+}
+
+.menu-link {
+    font-size: 25px;
+    padding: 0 5%;
+    border-radius: 8%;
+    color: rgb(153, 153, 153);
+    transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+    color: white;
+}
+
+.menu-and-pic img {
+    height: 210px;
+}
+
+#top-half {
+    height: 1200px;
+}
+
+#y {
+    height: 1200px;
+}
