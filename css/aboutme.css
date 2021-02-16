@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('../images/forest1.jpg');
+    background-image: url('../images/forest3.jpg');
     background-size: cover;
 }
 
@@ -13,7 +13,7 @@ header {
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 header .title {
@@ -75,9 +75,13 @@ header .title h1 {
     height: 210px;
 }
 
+/* END OF TOP BAR */
+
+
 #top-half {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 #info-area {
@@ -92,16 +96,13 @@ header .title h1 {
     border-radius: 4%;
     text-align: center;
     color: white;
+    overflow: auto;
 }
 
 #info-title, #get-in-touch {
     color:rgb(211, 158, 134);
     font-family: 'Shadows Into Light', cursive;
     font-size: 50px;
-}
-
-#get-in-touch {
-    font-size: 30px;
 }
 
 #info-area p {
@@ -111,7 +112,44 @@ header .title h1 {
     font-size: 20px;
 }
 
-#get-in-touch, #my-contacts {
+#get-in-touch {
+    font-size: 30px;
+}
+
+div#email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+div#email img {
+    width: 30px;
+    padding-right: 5px;
+}
+
+.contact-text {
+    font-size: 25px;
+}
+
+#contacts-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-site {
+    display: inline-flex;
+    flex-direction: column;
+    transition: all .2s ease 0s;
+}
+
+.social-site img {
+    width: 100px;
+    /* display: block; */
+}
+
+.social-site:hover {
+    transform: scale(1.2);
 }
 
 #pic-area {
@@ -120,8 +158,4 @@ header .title h1 {
     height: 53vw;
     min-width: 100px;
     border-radius: 4%;
-}
-
-#y {
-    display: inherit;
 }

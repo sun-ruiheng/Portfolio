@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('../images/forest6.png');
+    background-image: url('../images/forest4.jpg');
     background-size: cover;
 }
 
@@ -88,7 +88,7 @@ header .title h1 {
 }
 
 .category1 {
-    background-color: 	rgba(252, 225, 217, 0.9);
+    background-color: rgba(198, 233, 238, 0.9);
 }
 
 .category2 {
@@ -100,7 +100,7 @@ header .title h1 {
 }
 
 .category4 {
-    background-color: rgba(198, 233, 238, 0.9);
+    background-color: 	rgba(252, 225, 217, 0.9);
 }
 
 .category-title {
