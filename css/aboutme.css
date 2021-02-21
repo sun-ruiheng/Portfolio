@@ -50,11 +50,11 @@ header .title h1 {
     top: 20vh;
     border-radius: 8%;
     background-color: rgb(241, 237, 231);
+    align-items: center;
 }
 
 #popup form {
     position: static;
-    margin: auto;
 }
 
 .menu-and-pic {
