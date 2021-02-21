@@ -40,11 +40,11 @@ header .title h1 {
 }
 
 
-/* remember to add JS to make background darken and deactivate clicks when popup appears. */
+/* remember to add JS to make background darken and deactivate clicks when popup appears.
 #popup {
     height: 60vh;
     width: 60vw;
-    /* visibility: hidden; */
+    visibility: hidden; 
     position: fixed;
     left: 20vw;
     top: 20vh;
@@ -63,7 +63,7 @@ header .title h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-}
+} */
 
 
 

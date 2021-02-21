@@ -20,5 +20,5 @@ resume.onclick = () => {
 };
 
 email.onclick = () => {
-    
-}
+    window.location.href = "mailto:sunruiheng2001@gmail.com"
+};
