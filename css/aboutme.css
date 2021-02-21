@@ -154,6 +154,11 @@ div#email{
     cursor: pointer;
 }
 
+div#email a {
+    color: white;
+    text-decoration: none;
+}
+
 div#email:hover {
     transform: scale(1.2);
 }

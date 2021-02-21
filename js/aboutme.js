@@ -19,6 +19,3 @@ resume.onclick = () => {
     openPage('https://resume.io/r/rV3vTzYF1');
 };
 
-email.onclick = () => {
-    window.location.href = "mailto:sunruiheng2001@gmail.com"
-};
