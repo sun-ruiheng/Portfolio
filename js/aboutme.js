@@ -1,6 +1,7 @@
 const linkedin = document.getElementById('linkedin');
 const github = document.getElementById('github');
 const resume = document.getElementById('resume');
+const email = document.getElementById('email');
 
 function openPage(link) {
     window.open(link, '_blank');
@@ -17,3 +18,7 @@ github.onclick = () => {
 resume.onclick = () => {
     openPage('https://resume.io/r/rV3vTzYF1');
 };
+
+email.onclick = () => {
+    
+}

@@ -28,7 +28,22 @@
             </div>
         </header>
         
+
+        <!-- tryna make the email popup. -->
+        <div id='popup'>
+            <form action='../php/emailform.php' method="POST">
+                <input type="text" name='name' placeholder="Name: "/>
+                <input type="text" name='mail' placeholder="Your Email: "/>
+                <input type="text" name='subject' placeholder="Subject: "/>
+                <textarea name='message' placeholder="Message: "></textarea>
+                <button type='submit' name="submit">Submit</button>
+            </form>
+        </div>
+
+
+
         <div id='top-half'>
+
             <div id='info-area'>
                 <h1 id='info-title'>Hey there!</h1>
                 <h1>I'm Sun Ruiheng,</h1>
