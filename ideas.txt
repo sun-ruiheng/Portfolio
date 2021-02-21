@@ -6,3 +6,5 @@ overview type look, so don't go too much into detail describing each one.
 In blog, have different types of entries: experiences, skills, book reviews, personal.
 
 Add logos next to CS, WD, P5 on portfolio page.
+
+In About Me, add media query for phone screen where the heytea pic and info section are one on top of another

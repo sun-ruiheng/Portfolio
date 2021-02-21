@@ -141,6 +141,7 @@ div#email img {
     display: inline-flex;
     flex-direction: column;
     transition: all .2s ease 0s;
+    cursor: pointer;
 }
 
 .social-site img {
@@ -159,3 +160,8 @@ div#email img {
     min-width: 100px;
     border-radius: 4%;
 }
+
+
+
+/* for mobile screens */
+
