@@ -20,3 +20,5 @@
 //         document.getElementById('small-header').style.transform = 'translateY(-100px)';
 //     };
 // };
+
+// ANOTHER IDEA: FULL HEADER ON UP SCROLL, SMALLER HEADER ON DOWN SCROLL.

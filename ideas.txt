@@ -1,4 +1,3 @@
-Change navbar onscroll:
 maybe: downscroll is smallnav, upscroll is big nav
 
 Add a link to the corresponding blog page for each project?

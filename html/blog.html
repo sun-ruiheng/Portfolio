@@ -2,12 +2,14 @@
 <html lang="en">
     <head>
         <title>My Blog</title>
-        <link href='../css/blog.css' type='text/css' rel='stylesheet'/><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+        <link href='../css/blog.css' type='text/css' rel='stylesheet'/>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Libre+Baskerville&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Benne&family=Truculenta:wght@400;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
     </head>
 
     <body onscroll="changeNav()">
@@ -38,19 +40,64 @@
             </ul>
         </header>
 
+        <div class="left-area">
 
-        <div id='filter-div'>
-            <form id="filter-form">
-                <input type="checkbox" id='type1' name='type1'>
-                <label for='type1'>Professional</label>
-                <input type="checkbox" id='type2' name='type2'>
-                <label for='type2'>Personal</label>
-                <input type="checkbox" id='type3' name='type3'>
-                <label for='type3'>Reviews</label>
+        </div>
+
+
+        <div class='filter'>
+            <form class="filter">
+                <div class='filter-category'>
+                    <div class="inputlabel">
+                        <input type="checkbox" id='professional' checked='true' onclick="filter('professional')">
+                        <label for='professional'>Professional</label>
+                    </div>
+                    <p>Coding, learning, and experiencing things. Fun!</p>
+                </div>
+
+                <div class='filter-category'>
+                    <div class="inputlabel">
+                        <input type="checkbox" id='personal' checked='true' onclick="filter('personal')">
+                        <label for='personal'>Personal</label>
+                    </div>
+                    <p>Interesting events in my personal life?</p>
+                </div>
+
+                <div class='filter-category'>
+                    <div class="inputlabel">
+                        <input type="checkbox" id='reviews' checked='true' onclick="filter('reviews')">
+                        <label for='reviews'>Reviews</label>
+                    </div>
+                    <p>Raving, ranting, or both, about all kinds of stuff.</p>
+                </div>
+                
             </form>
         </div>
 
 
+        <div id="main-area">
+            <div class="blog-entry reviews">
+                <h2 class="entry-title">Declaration of Paid Advertisements</h2>
+                <p class="entry-description">Some paid sponsorships must be explicitly declared by law,
+                    while other product placements face nothing of that sort. I review Tom Scott's opinions and provide my own.
+                </p>
+            </div>
+            <div class="blog-entry personal">
+                <h2 class="entry-title">Declaration of Paid Advertisements</h2>
+                <p class="entry-description">Some paid sponsorships must be explicitly declared by law,
+                    while other product placements face nothing of that sort. I review Tom Scott's opinions and provide my own.
+                </p>
+            </div>
+            <div class="blog-entry reviews">
+                <h2 class="entry-title">Declaration of Paid Advertisements</h2>
+                <p class="entry-description">Some paid sponsorships must be explicitly declared by law,
+                    while other product placements face nothing of that sort. I review Tom Scott's opinions and provide my own.
+                </p>
+            </div>
+            
+        </div>
+
+
     </body>
-    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src='../js/blog.js'></script>
 </html>
