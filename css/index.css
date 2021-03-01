@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 
-header {
+header#main-header {
     background-color:rgb(6, 6, 99);
     height: 180px;
     padding: 15px 0;
@@ -32,12 +32,25 @@ header .title h2 {
     margin: 0;
     font-size: 30px;
     text-align: center;
+    transform:translateX(-80px);
 }
 
 header .title h1 {
     font-size: 70px;
     margin: 0;
     text-align: center;
+    transform:translateX(50px);
+}
+
+header .title h3 {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    transform:translateX(-30px);
+    color:rgb(188, 214, 232);
 }
 
 .menu-and-pic {
@@ -75,6 +88,54 @@ header .title h1 {
 .menu-and-pic img {
     height: 210px;
 }
+
+
+
+header#small-header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+header#small-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header#small-header li {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.current-s a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-link-s {
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.menu-link-s:hover {
+    color: white;
+    font-size: 25px;
+}
+
 
 /* main region */
 /* #main-body-area {

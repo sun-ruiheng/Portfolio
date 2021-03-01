@@ -1,10 +1,22 @@
+Change navbar onscroll:
+
 Add a link to the corresponding blog page for each project?
 
 In blog, each entry shouldn't have as long a height as each category in portfolio. People should be able to scroll comfortably and have a more
 overview type look, so don't go too much into detail describing each one.
 
-In blog, have different types of entries: experiences, skills, book reviews, personal.
+In blog, have different types of entries: professional, reviews, personal.
 
 Add logos next to CS, WD, P5 on portfolio page.
 
 In About Me, add media query for phone screen where the heytea pic and info section are one on top of another
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Add a fixed, hidden smaller navbar that's visible only when scrolled lower.
+$(window).scroll(function()
+{
+    document.getElementById("fixed_box").innerHTML = "You have Scrolled to " + $(window).scrollTop() + "px";
+});
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

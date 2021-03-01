@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Ruiheng's Portfolio</title>
+        <title>My Portfolio</title>
         <link href='./css/index.css' type='text/css' rel='stylesheet'/>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald:wght@500&display=swap" rel="stylesheet">
@@ -12,21 +12,30 @@
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Libre+Baskerville&display=swap" rel="stylesheet">
     </head>
 
-    <body>
-        <header>  <!-- entire dark blue nav bar -->
+    <body onscroll="changeNav()">
+        <header id='main-header'>  <!-- entire dark blue nav bar -->
             <div class='title'>
                 <h2>Ruiheng's</h2>
                 <h1>Portfolio</h1>
+                <h3>Check out some stuff I've done.</h3>
             </div>
 
             <div class='menu-and-pic'>
                 <ul>
                     <li class='current'>Portfolio</li>
                     <li><a href='./html/blog.html' class='menu-link'>Blog</a></li>
-                    <li><a href='./html/aboutme.html' class='menu-link'>About Me</a></li>
+                    <li><a href='./html/aboutme.html' class='menu-link'>About</a></li>
                 </ul>
                 <img src="./images/profilepic3.jpg" alt='Profile Icon'/>
             </div>
+        </header>
+
+        <header id='small-header'>
+            <ul>
+                <li class='current-s'><a href='#'>Portfolio</a></li>
+                <li><a href='./html/blog.html' class='menu-link-s'>Blog</a></li>
+                <li><a href='./html/aboutme.html' class='menu-link-s'>About</a></li>
+            </ul>
         </header>
 
         <section id='main-body-area'>
@@ -221,4 +230,5 @@
 
         </section>
     </body>
+    <script type='text/javascript' src='./js/index.js'></script>
 </html>

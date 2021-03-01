@@ -18,4 +18,3 @@ github.onclick = () => {
 resume.onclick = () => {
     openPage('https://resume.io/r/rV3vTzYF1');
 };
-
