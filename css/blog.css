@@ -8,13 +8,12 @@ body {
 }
 
 header#main-header {
-    background-color:rgb(6, 6, 99);
+    background-color:rgb(7, 7, 68);
     height: 180px;
     padding: 15px 0;
     /* to align title div vertically within header: */
     display: flex;
     align-items: center;
-    background-color: rgb(23, 19, 28);
     /* margin-bottom: 50px; */
     z-index: 2;
     position: relative;
@@ -109,7 +108,7 @@ header#small-header {
 }
 
 #small-header:hover{
-    opacity: .8;
+    background-color: rgba(0, 0, 0, 0.8);;
     z-index: 1;
 }
 
@@ -151,9 +150,11 @@ header#small-header li {
     position: fixed;
     left: 0;
     width: 20vw;
-    height: 100%;
+    height: 200%;
+    transform: translateY(-210px);
     background-color: rgba(216, 195, 249, 0.85);
 }
+
 
 
 div.filter {
@@ -162,7 +163,12 @@ div.filter {
     width: 15vw;
     /* background-color: rgba(216, 195, 249, 0.85); */
     border-radius: 5%;
-    margin-top: 25px;
+    margin-top: 10px;
+}
+
+.filter-title {
+    font-family: 'RocknRoll One', sans-serif;
+    margin: 10px auto;
 }
 
 form.filter {
@@ -170,6 +176,7 @@ form.filter {
     flex-direction: column;
     font-family: 'Oswald', sans-serif;
     color: rgb(29, 14, 61);
+    margin-top: 10px;
 }
 
 .inputlabel {
@@ -231,7 +238,7 @@ input[type='checkbox']:checked::after {
 
 
 #main-area {
-    position: fixed;
+    position: absolute;
     margin-top: 10px;
     left: 25vw;
     right: 5vw;
@@ -239,9 +246,17 @@ input[type='checkbox']:checked::after {
 }
 
 .blog-entry {
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin: 30px auto;
-    background-color: seashell;
+    font-family: 'Poppins', sans-serif;
+}
+
+.professional {
+    background-color: rgba(255, 250, 250, 0.95);
+}
+
+.personal {
+    background-color: rgba(232, 240, 191, 0.95);
 }
 
 .reviews {
