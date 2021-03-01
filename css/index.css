@@ -13,8 +13,10 @@ header#main-header {
     /* to align title div vertically within header: */
     display: flex;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 1);
     margin-bottom: 20px;
+    z-index: 2;
+    position: relative;
 }
 
 header .title {
@@ -102,7 +104,6 @@ header#small-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    visibility: hidden;
 }
 
 header#small-header ul {

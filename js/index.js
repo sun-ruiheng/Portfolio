@@ -12,11 +12,11 @@
 // };
 
 
-function changeNav () {
-    var currentScroll = document.scrollingElement.scrollTop;
-    if (currentScroll > 210) {
-        document.getElementById('small-header').style.visibility = 'visible';
-    } else {
-        document.getElementById('small-header').style.visibility = 'hidden';
-    };
-};
+// function changeNav () {
+//     var currentScroll = document.scrollingElement.scrollTop;
+//     if (currentScroll > 210) {
+//         document.getElementById('small-header').style.transform = 'translateY(100px)';
+//     } else {
+//         document.getElementById('small-header').style.transform = 'translateY(-100px)';
+//     };
+// };
