@@ -20,3 +20,13 @@ $(window).scroll(function()
     document.getElementById("fixed_box").innerHTML = "You have Scrolled to " + $(window).scrollTop() + "px";
 });
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+https://www.youtube.com/watch?v=1hU7oW4auIw&ab_channel=Geekazine
+^ some other video!
+instead of REVIEW, just have a RANT? link and credit the two (or more) vids, but just write your own essay.
+this will be like, umm, the reader won't actually watch the videos tbh, so it's a clean slate.
+not a review. an essay. i introduce all the ideas. of course rearrange the content and points.
+also include instagram...etc
+have essay plan first.

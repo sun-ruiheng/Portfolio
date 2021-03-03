@@ -159,15 +159,15 @@ header .title h3 {
 }
 
 div#email{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0 0 40px 0;
     transition: all .2s ease 0s;
     cursor: pointer;
 }
 
 div#email a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     text-decoration: none;
 }
