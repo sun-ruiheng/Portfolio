@@ -5,8 +5,11 @@ body {
     background-size: cover;
 }
 
+::selection {
+    background-color: rgb(185, 138, 80)
+}
+
 header {
-    background-color:rgb(6, 6, 99);
     height: 180px;
     padding: 15px 0;
     /* to align title div vertically within header: */
@@ -48,7 +51,7 @@ header .title h3 {
     font-family: 'Lato', sans-serif;
     margin: 0 auto;
     color:rgb(232, 219, 188);
-    transform:translateX(40px);
+    transform:translateX(-30px);
     margin-top: 5px;
 }
 
@@ -114,6 +117,10 @@ header .title h3 {
 
 .menu-and-pic img {
     height: 210px;
+}
+
+.menu-and-pic img:hover {
+    transform: scaleX(-1);
 }
 
 /* END OF TOP BAR */

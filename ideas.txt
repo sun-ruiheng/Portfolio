@@ -30,3 +30,7 @@ this will be like, umm, the reader won't actually watch the videos tbh, so it's 
 not a review. an essay. i introduce all the ideas. of course rearrange the content and points.
 also include instagram...etc
 have essay plan first.
+
+
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+font-family: 'Barlow', sans-serif;
