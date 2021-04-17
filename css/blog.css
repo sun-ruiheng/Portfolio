@@ -102,7 +102,7 @@ header#small-header {
     left: 0;
     right: 0;
     height: 100px;
-    background-color: rgba(83, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +111,7 @@ header#small-header {
 }
 
 #small-header:hover{
-    background-color: rgba(0, 0, 0, 0.8);;
+    background-color: rgba(83, 0, 0, 0.8);;
     z-index: 1;
 }
 
