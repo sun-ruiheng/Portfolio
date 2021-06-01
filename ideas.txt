@@ -13,6 +13,11 @@ In About Me, add media query for phone screen where the heytea pic and info sect
 
 
 
+broad possible idea: can make some nice UI for python(?) or math-ey code I'm proud of from codewars and hackerrank. or just nice 
+elegant math-related programs I've done. e.g. splitting large numbers into their respective primes.
+
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Add a fixed, hidden smaller navbar that's visible only when scrolled lower.
 $(window).scroll(function()
