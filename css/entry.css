@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: inherit;
-    background-color: lightblue;
+    background-image: url('../images/tech.jpg');
 }
 
 header {
@@ -50,11 +50,51 @@ li a:hover {
     font-size: 28px;
 }
 
+
+#content-bar {
+    position: fixed;
+    width: 17.2vw;
+    height: 50vh;
+    font-family: 'Squada One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    top: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: -25vh; /* Negative half of height. */
+    border-radius: 10px;
+}
+
+#content-bar a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#content-bar h2 {
+    margin: 5px;
+}
+
+/* #content-bar .minimise {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    transition: transform 0.2s;
+} 
+
+.minimise:hover {
+    transform: scale(1.5)
+} */
+
+
 #text-area {
     margin: auto;
     margin-top: 110px;
     width: 65%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding-bottom: 50px;
 }
