@@ -228,17 +228,33 @@ div#email img {
 @media (max-width: 500px) {
     #top-half {
         display: block;
+        margin: 0 auto;
     }
 
     #info-area {
         display: block;
+        max-width: 90vw;
+        max-height: 150vh;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 3vh;
+
+        font-weight: 600;
+        word-spacing: 2px;
+        line-height: 30px;
+        font-size: 15px;
     }
 
     #pic-area {
         display: block;
+        max-width: 90vw;
+        max-height: 100vh;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
     }
 
     header {
-        background-color: rgb(255, 255, 255);
     }
 }
