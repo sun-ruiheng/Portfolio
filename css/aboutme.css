@@ -225,3 +225,20 @@ div#email img {
 
 /* for mobile screens */
 
+@media (max-width: 500px) {
+    #top-half {
+        display: block;
+    }
+
+    #info-area {
+        display: block;
+    }
+
+    #pic-area {
+        display: block;
+    }
+
+    header {
+        background-color: rgb(255, 255, 255);
+    }
+}
