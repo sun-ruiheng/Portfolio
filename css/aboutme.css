@@ -140,8 +140,9 @@ header .title h3 {
     width: 40vw;
     height: 53vw;
     min-width: 100px;
-    padding: 0 2em;
-    border-radius: 4%;
+    /* padding: 0 2em; */
+    padding-bottom: 3vh;
+    border-radius: 25px;
     text-align: center;
     color: white;
     overflow-x: hidden;
@@ -159,6 +160,7 @@ header .title h3 {
     word-spacing: 2px;
     line-height: 30px;
     font-size: 20px;
+    padding: 0 2em;
 }
 
 #get-in-touch {
@@ -218,7 +220,7 @@ div#email img {
     width: 40vw;
     height: 53vw;
     min-width: 100px;
-    border-radius: 4%;
+    border-radius: 25px;
 }
 
 
@@ -233,8 +235,8 @@ div#email img {
 
     #info-area {
         display: block;
-        max-width: 90vw;
-        max-height: 150vh;
+        max-width: 95vw;
+        max-height: 100vh;
         width: auto;
         height: auto;
         margin: 0 auto;
@@ -248,7 +250,7 @@ div#email img {
 
     #pic-area {
         display: block;
-        max-width: 90vw;
+        max-width: 95vw;
         max-height: 100vh;
         width: auto;
         height: auto;
