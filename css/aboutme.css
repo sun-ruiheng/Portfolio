@@ -141,7 +141,7 @@ header .title h3 {
     height: 53vw;
     min-width: 100px;
     /* padding: 0 2em; */
-    padding-bottom: 3vh;
+    
     border-radius: 25px;
     text-align: center;
     color: white;
@@ -227,7 +227,7 @@ div#email img {
 
 /* for mobile screens */
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     #top-half {
         display: block;
         margin: 0 auto;
@@ -241,7 +241,7 @@ div#email img {
         height: auto;
         margin: 0 auto;
         margin-bottom: 3vh;
-
+        padding-bottom: 3vh;
         font-weight: 600;
         word-spacing: 2px;
         line-height: 30px;
