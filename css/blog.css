@@ -160,7 +160,7 @@ header#small-header li {
 
 
 div.filter {
-    position: fixed;
+    position: absolute;
     left: 3.5vw;
     width: 15vw;
     /* background-color: rgba(216, 195, 249, 0.85); */
