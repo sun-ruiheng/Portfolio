@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>About Me</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href='../css/aboutme.css' type='text/css' rel='stylesheet'/>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Libre+Baskerville&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Benne&family=Truculenta:wght@400;600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-        <header>  <!-- entire top nav bar -->
-            <div class='title'>
-                <h1>About</h1>
-                <h2>Ruiheng</h2>
-                <h3>Contact me or something.</h3>
-            </div>
+<head>
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='../css/aboutme.css' type='text/css' rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Libre+Baskerville&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Benne&family=Truculenta:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 
-            <div class='menu-and-pic'>
-                <ul>
-                    <li><a class='menu-link' href='../index.html'>Portfolio</a></li>
-                    <li><a class='menu-link' href="./blog.html">Blog</a></li>
-                    <li class="current">About</li>
-                    
-                </ul>
-                <img src="../images/catt.png" alt='Cat'/>
-            </div>
-        </header>
-        
+<body>
+    <header>
+        <!-- entire top nav bar -->
+        <div class='title'>
+            <h1>About</h1>
+            <h2>Ruiheng</h2>
+            <h3>Contact me or something.</h3>
+        </div>
 
-        <!-- tryna make the email popup. -->
-        <!-- <div id='popup'>
+        <div class='menu-and-pic'>
+            <ul>
+                <li><a class='menu-link' href='../index.html'>Portfolio</a></li>
+                <li><a class='menu-link' href="./blog.html">Blog</a></li>
+                <li class="current">About</li>
+
+            </ul>
+            <img src="../images/catt.png" alt='Cat' />
+        </div>
+    </header>
+
+
+    <!-- tryna make the email popup. -->
+    <!-- <div id='popup'>
             <form action='"mailto:sunruiheng@gmail.com' method="POST">
                 <input type="text" name='name' placeholder="Name: "/>
                 <input type="text" name='mail' placeholder="Your Email: "/>
@@ -45,50 +51,57 @@
             
         </div> -->
 
-    
 
 
 
-        <div id='top-half'>
 
-            <div id='info-area'>
+    <div id='top-half'>
+
+        <div id='info-area'>
+            <div class="info-part">
                 <h1 id='info-title'>Hey there!</h1>
+            </div>
+            <div class="info-part">
                 <h1>I'm Sun Ruiheng,</h1>
-                <p>an incoming Mathematics and Computer Science undergraduate at NUS, currently serving in the Republic of Singapore Navy.</p>
+                <p>an incoming Mathematics and Computer Science undergraduate at NUS, currently serving in the Republic
+                    of Singapore Navy.</p>
                 <p>I like sports, I like video games, and I have sort of an unhealthy obsession with cats.</p>
-                <p>While I have some time, I'd love to explore the boundless wealth of opportunities out there, in STEM and other sectors.</p>
-                
+                <p>While I have some time, I'd love to explore the boundless wealth of opportunities out there, in STEM
+                    and other sectors.</p>
+            </div>
+            <div class="info-part">
                 <h2 id='get-in-touch'><u>Let's get in touch!</u></h2>
                 <div id='my-contacts'>
                     <div id='email'>
                         <a href="mailto:sunruiheng2001@gmail.com">
-                            <img src="../images/emailclosed.png"/>
+                            <img src="../images/emailclosed.png" />
                             <span class='contact-text'>sunruiheng2001@gmail.com</span>
                         </a>
-                        
                     </div>
                     <div id='contacts-container'>
-                        <div id='linkedin' class='social-site'>
+                        <div id='linkedin' class='social-site hover-underline-animation'>
                             <img src="../images/linkedin.png">
                             <span class='contact-text'>LinkedIn</span>
                         </div>
-                        <div id='github' class='social-site'>
-                            <img src="../images/github.png">
-                            <span class='contact-text'>GitHub</span>
-                        </div>
-                        <div id='resume' class='social-site'>
+                        <div id='resume' class='social-site hover-underline-animation'>
                             <img src="../images/resume.webp" alt="My Resume">
                             <span class='contact-text'>Résumé</span>
+                        </div>
+                        <div id='github' class='social-site hover-underline-animation'>
+                            <img src="../images/github.png">
+                            <span class='contact-text'>GitHub</span>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <img id='pic-area' src='../images/me03.jpeg'/>
         </div>
-        
 
-        
-    </body>
-    <script type='text/javascript' src='../js/aboutme.js'></script>
+        <img id='pic-area' src='../images/me03.jpeg' />
+    </div>
+
+
+
+</body>
+<script type='text/javascript' src='../js/aboutme.js'></script>
+
 </html>

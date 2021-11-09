@@ -136,7 +136,7 @@ header .title h3 {
     font-family: 'Truculenta', sans-serif;
     /* background-color: rgb(240, 234, 221); */
     background-image: url('../images/wood1.jpg');
-    display: inline-block;
+    /* display: inline-block; */
     width: 40vw;
     height: 53vw;
     min-width: 100px;
@@ -147,6 +147,9 @@ header .title h3 {
     color: white;
     overflow-x: hidden;
     overflow-y: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
 }
 
 #info-title, #get-in-touch {
@@ -214,6 +217,97 @@ div#email img {
 .social-site:hover {
     transform: scale(1.2);
 }
+
+#linkedin:hover {
+    color: #0072b1;
+}
+#linkedin:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    background-color: #0072b1;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#linkedin:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+#resume:hover {
+    color: rgb(221, 210, 151);
+}
+#resume:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    background-color: rgb(221, 210, 151);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#resume:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+#github:hover {
+    color: #f1502f;
+}
+#github:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    background-color: #f1502f;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#github:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
+/* For the underline animation of website anchor tag */
+.hover-underline-animation {
+    /* display: inline-block; */
+    position: relative;
+  }
+  
+  /* .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    background-color: #f1502f;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  } */
+  
+  /* .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } */
+  /* End of hover animation CSS */
+
+
+
 
 #pic-area {
     display: inline-block;
