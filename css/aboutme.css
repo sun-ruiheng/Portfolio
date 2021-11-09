@@ -134,9 +134,8 @@ header .title h3 {
 
 #info-area {
     font-family: 'Truculenta', sans-serif;
-    /* background-color: rgb(240, 234, 221); */
     background-image: url('../images/wood1.jpg');
-    /* display: inline-block; */
+    display: inline-block;
     width: 40vw;
     height: 53vw;
     min-width: 100px;
@@ -277,35 +276,6 @@ div#email img {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-
-
-
-
-/* For the underline animation of website anchor tag */
-.hover-underline-animation {
-    /* display: inline-block; */
-    position: relative;
-  }
-  
-  /* .hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    background-color: #f1502f;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  } */
-  
-  /* .hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  } */
-  /* End of hover animation CSS */
-
 
 
 
