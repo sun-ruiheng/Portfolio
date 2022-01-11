@@ -25,6 +25,24 @@ body::after {
     /* end */
   }
 
+body#zero-infinity::after {
+    content: "";
+    background: url("../images/athens.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+     /* TO make fit perfectly */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* end */
+}
+
 header {
     background-color: rgb(0, 0, 0, 0.6);
     height: 80px;
@@ -165,4 +183,11 @@ li a:hover {
     font-weight: 400;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
