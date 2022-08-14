@@ -16,5 +16,5 @@ github.onclick = () => {
 };
 
 resume.onclick = () => {
-    openPage('../images/Ruiheng Resume.pdf');
+    openPage('../images/Ruiheng CV.pdf');
 };
